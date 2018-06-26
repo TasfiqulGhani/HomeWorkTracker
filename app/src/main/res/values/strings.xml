@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">JJMotivation</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_welcome_to_wakeup">WelcomeToWakeup</string>
+    <string name="title_activity_page_two">PageTwo</string>
+    <string name="title_activity_page_three">PageThree</string>
+    <string name="title_activity_page_five">PageFive</string>
+</resources>

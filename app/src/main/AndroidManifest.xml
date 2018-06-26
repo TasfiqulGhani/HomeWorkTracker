@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tashfik.jjmotivation.com.wakeup">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icons"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icons"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".PageOne"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Details" />
+        <activity
+            android:name=".PageTwo"
+            android:label="@string/title_activity_welcome_to_wakeup"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_page_two"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PageFour"
+            android:label="@string/title_activity_page_three"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PageFive"
+            android:label="@string/title_activity_page_five"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
